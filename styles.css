@@ -1,0 +1,29 @@
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
+/* Image Styles */
+.zyimage {
+    height: auto;
+    margin: 0 auto;
+}
+
+.gallery {
+    align-content: center;
+}
+
+/* Link Styles */
+.link-image {
+    display: block;
+    width: 30%;
+    height: auto;
+    text-decoration: none;
+}
