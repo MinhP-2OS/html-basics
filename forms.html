@@ -21,7 +21,7 @@
                 <label for="dob">2. DOB:</label>
                 <input type="date" id="dob" name="dob" required>
             </p>
-                    
+
         <!-- Color Inputs -->
             <p>
                 <label for="color">3. Choose your favorite color:</label>
@@ -33,6 +33,19 @@
                 <label for="age">4. Age:</label>
                 <input type="number" id="age" name="age" min="0" required>
             </p>
+            
+        <!-- Range Inputs -->
+            <p>
+                <label for="range">5. Rate yourself from 1-10:</label>
+                <input type="range" id="range" name="range" min="1" max="10" value="5">
+            </p>
+            
+        <!-- Text Area Inputs -->
+            <div>
+                <label for="message">6. Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+            </div>
+
         </form>
     </body>
 </html>
