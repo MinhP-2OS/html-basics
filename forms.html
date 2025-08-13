@@ -86,6 +86,19 @@
         <!-- Listbox Inputs -->
             <p>10. Best describe about learning?</p>
             <p>
+                <label for="learning-list">Choose learning type(s):</label>
+                <input list="learning-types" id="learning-list" name="learning-list">
+                <datalist id="learning-types">
+                    <option value="Visual">
+                    <option value="Auditory">
+                    <option value="Kinesthetic">
+                    <option value="Reading/Writing">
+                    <option value="Social">
+                    <option value="Solitary">
+                </datalist>
+                <br>
+                <!-- This is used in case of browser compatibility -->
+                
                 <select id="learning" name="learning" size="4" multiple>
                     <option value="visual">Visual</option>
                     <option value="auditory">Auditory</option>
